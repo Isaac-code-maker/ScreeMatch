@@ -1,18 +1,77 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+```markdown
+## Começando
 
-The workspace contains two folders by default, where:
+Bem-vindo ao projeto ScreeMatch. Este projeto contém várias classes Java que demonstram conceitos básicos de programação orientada a objetos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Estrutura de Pastas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O workspace contém as seguintes pastas:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `src`: a pasta para manter os arquivos fonte
+- `bin`: a pasta para manter os arquivos compilados
+- `lib`: a pasta para manter as dependências
 
-## Dependency Management
+## Compilando e Executando
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Para compilar o projeto, execute o seguinte comando no terminal:
+
+```sh
+javac -d bin src/*.java
+```
+
+Para executar a classe 
+
+Main
+
+, use o seguinte comando:
+
+```sh
+java -cp bin Main
+```
+
+## Estrutura do Projeto
+
+O projeto contém as seguintes classes Java:
+
+- 
+
+Aluno
+
+: Representa um aluno com atributos como nome, idade e curso.
+- 
+
+Carro
+
+: Representa um carro com atributos como modelo, ano e cor.
+- 
+
+Calculadora
+
+: Uma classe de calculadora simples com um método para calcular o dobro de um número.
+- 
+
+Filme
+
+: Representa um filme com atributos como nome, ano de lançamento, duração e avaliações.
+- 
+
+Musica
+
+: Representa uma faixa de música com atributos como título, artista, ano de lançamento e avaliações.
+- 
+
+Pessoa
+
+: Representa uma pessoa com atributos como nome e idade.
+- 
+
+Main
+
+: A classe principal para executar e testar as outras classes.
+
+## Gerenciamento de Dependências
+
+A visualização `JAVA PROJECTS` no Visual Studio Code permite gerenciar suas dependências. Mais detalhes podem ser encontrados [aqui](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```

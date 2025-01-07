@@ -3,9 +3,17 @@ public class Filme {
     String nome;
     int anoLancamento;
     boolean incluidoNoPlano;
-    double somaAvaliacoes;
-    int totalAvaliacoes;
+    private double somaAvaliacoes;
+    private int totalAvaliacoes;
     int duracaoEmMinutos;
+
+    int geTotalAvaliacoes(){
+        return totalAvaliacoes;
+    }
+
+    double getSomaAvaliacoes(){
+        return somaAvaliacoes;
+    }
 
 
     void ExibirFichaTecnica() {

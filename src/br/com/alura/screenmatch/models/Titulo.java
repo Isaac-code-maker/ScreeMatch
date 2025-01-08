@@ -1,5 +1,6 @@
-package br;
-public class Filme {
+package br.com.alura.screenmatch.models;
+
+public class Titulo {
 
     private String nome;
     private int anoLancamento;
@@ -65,4 +66,5 @@ public class Filme {
     public double CalcularMediaAvaliacoes(){
         return somaAvaliacoes / totalAvaliacoes;
     }
+
 }

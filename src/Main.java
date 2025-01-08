@@ -1,3 +1,5 @@
+import br.Filme;
+
 public class Main {
     public static void main(String[] args) throws Exception {
 
@@ -5,12 +7,12 @@ public class Main {
         // EXERCÍCIO DA AULA - ScreenMatch
         Filme meuFilme = new Filme();
 
-        meuFilme.nome = "O Poderoso Chefão";
-        meuFilme.anoLancamento = 1972;
-        meuFilme.duracaoEmMinutos = 175;
+        meuFilme.setNome("O Poderoso Chefão");
+        meuFilme.setAnoLancamento(1972); 
+        meuFilme.setDuracaoEmMinutos(175); 
 
-         System.out.println(meuFilme.nome);
-         System.out.println(meuFilme.anoLancamento);
+         System.out.println(meuFilme.getNome());
+         System.out.println(meuFilme.getAnoLancamento());
 
          meuFilme.ExibirFichaTecnica();
 
